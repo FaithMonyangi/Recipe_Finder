@@ -2,6 +2,11 @@
 
 A modern, responsive web application for discovering and exploring recipes from around the world. Built with HTML, CSS, and JavaScript.
 
+## 🔗 Live Demo
+
+[View Live Website](https://faithmonyangi.github.io/Recipe_Finder/)
+
+
 ## Features
 
 - 🍳 Extensive recipe collection
