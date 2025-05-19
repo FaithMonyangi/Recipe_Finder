@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Web App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>🍽️ Recipe Finder</h1>
+            </div>
+            <div class="nav-links">
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search recipes...">
+                <button id="searchBtn"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="filter-container">
+                <select id="categoryFilter">
+                    <option value="all">All Categories</option>
+                    <option value="breakfast">Breakfast</option>
+                    <option value="lunch">Lunch</option>
+                    <option value="dinner">Dinner</option>
+                    <option value="dessert">Dessert</option>
+                    <option value="vegetarian">Vegetarian</option>
+                </select>
+            </div>
+            <button id="themeToggle" class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <div class="recipes-container" id="recipesContainer">
+            <!-- Recipe cards will be dynamically inserted here -->
+        </div>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://pinterest.com" target="_blank" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+        </div>
+        <p>&copy; 2024 Recipe Finder. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+    <script src="theme.js"></script>
+</body>
+</html> 
